@@ -1,0 +1,14 @@
+Notes:
+.capitalize
+.upcase
+.downcase
+.reverse
+.length
+
+Target Characters in a string
+Counting starts at zero.
+Therefore[4] = targets the fifth
+
+Target parts:
+[2.6] target characters 2 through 6.
+

@@ -1,0 +1,6 @@
+example = {
+ x = y
+ u = m
+ t = v,
+}
+

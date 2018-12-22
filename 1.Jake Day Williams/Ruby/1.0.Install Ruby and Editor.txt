@@ -1,0 +1,14 @@
+rubyinstaller.org/downloads
+www.activestate.com/komodo-edit/downloads
+
+Terms Covered
+
+Variable = Placeholder / Object
+Boolean = True of false statements
+Integer = A Number
+Float = Numer with decimal. 4.57
+String = Anything in quotations
+
+print
+puts
+
