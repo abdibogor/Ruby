@@ -1,0 +1,75 @@
+Validation Methods
+
+validates_presence_of
+  Attributes must not be blank (nil, false, " ", " ", [], {})
+  :message => "can't be blank"
+
+Validates_length_of
+   Attribute must meet the length requirements of the options
+   :is, :minimum, :maximum (integer)
+   :within, :in (range)
+   :wrong_length => "is the wrong length (should be {{count}}characters)"
+   :too_short => "is too short (minimum is {{count}} characters)"
+   :too_long => "is too long (maximum is {{count}} characters)"
+
+. Validates_numericality_of
+   	- Attribute must be an integer or floating point number
+	- :equal_to, :greater_than, :less_than, :greater_than_or_equal_to,
+	:less_than_or_equal_to (numeric)
+	: odd, :even, :only_integer (boolean)
+	:message => "is not a number"
+
+validates_inclusion_of
+- Attributes must be in a list of choices(an array or range)
+- :in (enumerable)
+- :message => "is not included in the list"
+
+Validates_exclusion_of
+-Attribute must not be in a list of choices (an array or range)
+- :in (enumerable)
+- :message => "is reserved"
+
+
+. Validates_format_of
+- Attribute must match a regular expression
+  :with (regular expression)
+  :message => "is invalid"
+
+Validates_uniqueness_of
+ -Attributes must not already exist in the database (for the given scope)
+  :case_sensitive (boolean)
+  :scope (column symbols for limiting scope)
+  :message => "has already been taken"
+
+Validates_acceptance_of
+-Attributes must be "accepted"
+-Creates a virtual attribute if there is no table column for the attribute
+-:accept (expected value, "1")
+- :message => "must be accepted"
+
+. Validates_confirmation_of
+  - Attribute must be confirmed by entering twice
+  - Creates a virtual attribute for the confirmation (:email gets :email_confirmation)
+  - Only validates when confirmation attribute is not nil (no confirm form field submitted = no validation)
+  - :message => "doesn't match confirmation"
+
+
+OTHER VALIDATION OPTIONS
+
+. Most methods accept the options:
+   :allow_nil => true
+    - Skips validation if attribute is nil(no value set)
+   : allow_blank => true
+    -Skips validation if attribute is blank (nil, false, "", "", [], {})
+
+. All methods accept the options:
+   :on => :save / :create / :update
+        Only validates if this is a new record(:create) or an existing record(:update)
+   :save validates in both cases and is the default
+   :if => :method / :unless => :method
+   :method is a method defined in the model that should return true or false
+
+
+
+
+

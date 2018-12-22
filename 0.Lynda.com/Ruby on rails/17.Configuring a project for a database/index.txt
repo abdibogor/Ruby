@@ -1,0 +1,9 @@
+YML
+
+YAML Ain't Markup Language
+
+RAILS ENVIRONMENTS
+
+. development
+. production
+. test

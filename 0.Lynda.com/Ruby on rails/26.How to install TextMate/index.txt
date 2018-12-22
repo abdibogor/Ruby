@@ -1,0 +1,30 @@
+.Essential
+   -Code coloring, syntax higlighting
+   -Ruby, Rails, HTML, CSS, Javascript
+- Easily navigate a whole project (project window, open file tabs, etc.)
+- Good search and replace
+- Auto-pairing of brackets, parentheses and quotes
+
+. Preferred
+  - Auto-indent
+  - Code completion
+  - Customize document and code coloring (themes)
+
+TextMate
+  -http://macromates.com
+  -Most popular in Rails community
+  -Excellent features
+  -Good Price (free 30-day trial, about $50 to buy)
+
+- Other editors and IDEs
+ RubyMine
+ RadRails
+ EClipse
+ Netbeans
+ Komodo
+ Coda
+ MacVim
+ BBEdit
+
+http://macromates.com
+

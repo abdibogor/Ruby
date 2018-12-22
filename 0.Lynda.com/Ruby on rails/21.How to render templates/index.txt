@@ -1,0 +1,6 @@
+RENDERING TEMPLATES
+
+VIEW => Controller => Model
+
+RENDER TEMPLATE SYNTAX
+

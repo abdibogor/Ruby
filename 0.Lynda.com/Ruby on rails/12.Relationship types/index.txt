@@ -1,0 +1,46 @@
+		Relationship Types
+
+One-to-One
+One-to-many
+Many-to-many
+
+One-to-one
+   Abbreviated as 1:1
+   Classroom - teacher
+   A classroom "has one" teacher
+   A teacher "belongs to" a classroom
+   Foreign key goes on teachers table
+
+One-to-many
+   Abbreviated as 1:1
+   Classroom - courses
+   A teacher "has many" courses
+   A course "belongs to" a teacher
+   Foreign key goes on teachers table
+
+
+One-to-many
+   Abbreviated as 1:1
+   courses - students
+   A course "has many" students and also "belongs_to" many students
+   A student "has many" courses and also "belongs_to" many courses
+   Two Foreign keys, so they go in a join table
+
+. One-to-one
+  -Classroom - teacher
+  -Classroom has_one :teacher
+  -Teacher belongs to : classroom
+
+ .One-to-many
+  Teacher - Courses
+  Teacher has_many : courses
+  course belongs to : teacher
+
+. Many-to-many
+  . Courses - students
+  . Courses has_and_belongs_to_many : students
+  . Student has_and_belongs_to_many : courses
+   (When the join is simple, using only the foreign keys)
+
+
+

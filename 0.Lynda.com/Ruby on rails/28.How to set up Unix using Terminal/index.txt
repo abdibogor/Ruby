@@ -1,0 +1,18 @@
+Terminal and Unix Setup
+
+CD~
+ls
+ls
+cd ..
+ls
+cd ../..
+ls
+ls -la
+
+echo 'hello'
+hello
+echo $SHELL
+which echo 
+echo $PATH
+ls -la
+.bash_profile

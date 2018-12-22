@@ -1,0 +1,18 @@
+View Templates
+
+	ERb
+ 	"Embedded Ruby"
+eRuby templating system to embed Ruby
+
+TEMPLATE FILE NAMING
+
+hello.html.erb
+Template name: hello
+Process with: ERB
+Outpt format: HTML
+
+EMBEDDING RUBY In AN ERB TEMPLATE
+
+    <% code %>
+    <%= code %>
+

@@ -1,0 +1,48 @@
+MVC WEB ARCHITECTURE
+
+Browser => View => Controller => Model => Database
+
+WORKING WITH DATABASES IN RAILS
+
+How much SQL should you know?
+
+DATABASE TERMS
+
+.Database: a set of tables
+  - 1 application = 1 database
+  - Example: simple_cms_development
+  - All lowercase with underscore
+  - Grant access permissions at the database level
+
+. Table: a set of columns and rows
+    - 1 model =  1 table
+    - Represents a single concept (a noun)
+    - Examples: users, subjects, pages
+    - All lowercase with underscores, plural
+
+  DATABASE TERMS
+
+. Column: a set of data of a single simple type
+  - 1 attribute = 1 column
+  - Example: first_name, last_name_,email,password
+  -Column types are strings,integers, etc.
+
+. Row: a single record of data
+   - 1 object or instance = 1 row
+   - Example: "Kevin", "Skoglund", "ks@email.com", "secret"
+
+. Field: the intersection of a column and a row
+   - Has a single value
+   - Example: first_name: "Kevin"
+
+. Foreign Key: a table column whose values reference rows in another table
+    - The foundation of relational databases
+    - Example: pages.subject_id
+    - Singular foreign table name + "_id"
+
+Index: a data structure on a table to increase lookup(raadinta) speed
+      - Like the index at the back of a book
+
+. Schema: the structural definition of a database
+     - Defines the tables, columns, and indexes of a database
+

@@ -1,0 +1,11 @@
+  M Model
+  V View
+  C Controller
+				     Handles Data
+Browser => Page => Database 	      ||
+Browser => Controller => Model => Database => 
+             ||		 ||
+	     View	 Handles Decisions
+	     ||
+	     Handles Presentation 
+

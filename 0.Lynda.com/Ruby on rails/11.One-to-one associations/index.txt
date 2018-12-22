@@ -1,0 +1,16 @@
+.Most often used for unique items that a person or string can have only one of 
+  Employee has_one :office
+  Student has_one : id_card
+
+.Sometimes used to break up a single table
+  Customer has_one : billing_address
+  Stage has_one :lighting_configuration
+
+. Subject-page
+  Subject has_one :page
+  Page belongs_to :subject
+
+. Class with "belongs_to" should have the foreign key
+
+. Always define both sides of the relationship!
+

@@ -1,0 +1,25 @@
+form_for
+text_field
+password_field
+text_area
+hidden_field
+file_field
+radio_button
+check_box
+
+FORM HELPERS EXAMPLE
+
+form_for( :subject, :url  => { :action => "create"}, :html => { :multiplication => true }} do |f|
+f.text_field( :name, :size => 40, :maxlength => 40)
+text_field( :subject, :alt_name, :size => 40, :maxlength => )
+f.password_field( :password, :size =40, :maxlength => 40 )
+f.text_area( :description, :size => "40*5" ) # or :cols, :rows
+f.hidden_field( :token)
+f.file_field( :logo) # requires :multipart => true
+f.radio_button ( :content_type, "text" )
+f.radio_button ( :content_type, "HTML" )
+f.check_box( : visible )
+submit_tag ( "Submit" )
+
+end
+

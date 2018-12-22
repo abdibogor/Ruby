@@ -1,0 +1,50 @@
+What is ACTIVERECORD?
+.active record is a commonly-used design pattern for relational databases
+.ActiveRecords is the rails implementation of the active record pattern
+.Retrieve and manipulate database data as objects, not just as static rows
+.active record objects are "intelligent"
+        They "understand " the structure of the database and "know" how to interact wit it
+        They contain data, but also have the ability to create, read, update, and delete rows.
+        They can be manipulated and saved back to the database
+
+.Examples
+  Creates an active record object
+  Retrieve an active record object, update values, and save
+  Delete an active record object
+
+
+ACTIVERECORD EXAMPLE
+
+user = User.new
+user.first_name = "Kevin"
+user.save # SQL INSERT
+
+user.last_name = "SKoglund"
+user.save # SQL UPDATE
+
+user.delete # SQL DELETE
+
+
+WHAT IS ACTIVERELATION?
+Added in Rails Version 3
+Also know as "Arel"
+An Object-oriented interpretation of relational algebra
+Simplifies the generation of complex databases queries
+   . Small queries are chainable (like most Ruby objects)
+   . Complex joins and aggregations use efficient SQL
+   . Queries do not execute until needed
+
+. Used heavily by ActiveRecord for queries and managing relationships
+. Mostly lives behind the scenes, but important to understand concept
+
+ACTIVERELATION EXAMPLE
+users = User.where(:first_name => "Kevin")
+users = uses.order("last_name ASC").limit(5)
+users = users.include(:articles_authored)
+
+SELECT users,*, articles.*
+FROM users
+LEFT JOIN articles ON (users.id = articles.author_id)
+WHERE users.first_name = 'Kevin'
+ORDER BY last_name ASC LIMIT 5
+

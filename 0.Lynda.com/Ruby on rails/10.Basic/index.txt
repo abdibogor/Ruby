@@ -1,0 +1,21 @@
+MVC WEB ARCHITECTURE
+
+Browser => Controller => View = > Model => Database
+
+CRUD
+Create, Read, Update, Delete
+
+.Generate new controllers
+  SubjectsController
+  PagesController
+  SectionsController
+
+.For basic CRUD  typically:
+   One controller per model
+   Plural names
+
+. Allows for clear URLs
+  subjects/new, subjects/list
+  pages/new, pages/list
+  sections/new, sections/list
+

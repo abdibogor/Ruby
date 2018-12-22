@@ -1,0 +1,7 @@
+execute en tant qu'administrateur
+ gem -v
+ which gem
+ sudo gem update --system
+ gem -v
+ 
+RubyGems.org

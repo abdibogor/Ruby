@@ -1,0 +1,32 @@
+Query Methods: Conditions
+
+New ActiveRelation query methods
+Previous query methods will be deprecated in Rails v3.1 and removed in v3.2
+Subject.find(:first, :conditions => ["name = ? AND visible = "1", "First Subject"])
+Subject.find(:all, :conditions => {:visible => true })
+
+Where(conditions)
+  Subject.where(:visible => true)
+
+Returns an ActiveRelation object, which an be chained
+ Subject.where(:visible => true).order("position ASC")
+
+Does not execute a database call immediately
+
+. String 
+   "name = 'First Subject' And visible = true"
+    Flexible, raw SQL
+    Use carefully and beware of SQL injection
+ 
+. Array
+    ["name = ? AND visible = true", "First Subject"]
+    Flexible, escaped SQL
+    Safe from SQL injection
+
+. Hash
+    {:name => "First Subject", :visible => true}
+     Simple escaped SQL
+     Safe from SQL injection
+     Only supports equality range, and subset checking; no LIKE, less tha,/greater than
+
+

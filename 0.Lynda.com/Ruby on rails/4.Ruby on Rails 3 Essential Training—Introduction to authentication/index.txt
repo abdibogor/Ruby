@@ -1,0 +1,53 @@
+	Introduction to Authentication
+
+WHY AUTHENTICATION?
+.Password-protected areas are a common feature in most web applications.
+.Examinig authentication best practices will help avoid costly mistakes.
+.Development choices and security concers area intertwined topics.
+.Explore some important topics and features of Rails.
+
+
+TOPICS AND FEATURES INTERWOVEN
+
+Encryption techniques
+Protecting attributes during mass assignement
+Non-database attributes.
+Callbacks
+Cookies and sessions
+Controller method accessibility
+Before filters
+
+
+AUTHENTICATION OVERVIEW
+Admin creates a user in the database
+  Password is encrypted before user is stored
+User logs in via login form
+Application authenticates user
+  Searches for username in database
+  if username found: encrypts form passwords and compares with stored password 
+  if password matches: stores the user ID in the session, redirects to a post-login page
+
+.User requests additional password-protected pages
+  Cookies and session data are sent with each page request
+  Application checks the session data for the user ID
+  if present: returns the page
+  if absent: redirects to the login form
+
+Ticket ANALOGY
+.Admin creates a user in the database
+  Purchase tickets for a concert
+
+.User logs in via a login form
+   Wait in line to pick up tickets
+
+.Application authenticates user
+   Present identification, get tickets
+   Get hand-stamp, enter
+
+. User requests additional password-protected pages
+      Show hand-stamp, avoid line, re-enter
+
+. User logs out
+  Wash away hand-stamp
+
+

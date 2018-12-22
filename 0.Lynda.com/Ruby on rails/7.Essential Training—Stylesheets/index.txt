@@ -1,0 +1,7 @@
+Stylesheets
+
+STYLESHEET CONVENTIONS
+
+.Located in /public/stylesheets
+.File names end with ".css"
+

@@ -1,0 +1,19 @@
+	Getting Started
+
+INTRODUCING RUBY ON RAILS: WHAT IS RUBY?
+
+. Object-oriented programming language
+. Created in 1995 by Yukihiro Matsumoto("Matz")
+. Used for many purposes( ujeedooyin ), not just web applications
+. "Ruby Essential Training" on lynda.com
+
+INTRODUCING RUBY ON RAILS: WHAT IS RUBY ON RAILS?
+
+Open-source, web application framework
+written in Ruby
+Created in 2003 by David Heinemeier Hansson("DHH")
+Created as foundation of 37 signal's Basecamp and then released as open source in 2004
+
+Framework: 
+a set of code libraries( maktabadaha ) and data-structures that provide generic( guud ahaan ) functionality which can be used, overriden( xad dhaaf ah ) on further( dheeraad ah ) specialized.
+

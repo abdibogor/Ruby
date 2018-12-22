@@ -1,0 +1,61 @@
+Deploying(geynta)
+
+DEPLOYING A RAILS APPLICATION
+. Find an ISP the offes Rails application hosting
+. Install all software on the remote server
+. Choose a web server
+. Get deployment tools
+
+Rails Application HOSTING
+
+Blue Box Group - http://www.blueboxgrp.com
+
+
+INSTALL SOFTWARE ON REMOTE SERVER
+. Same software as for this tutorial
+   Rbuy
+   RubyGems
+   RubyGems
+   MySQL
+   mysql gem
+
+. Install guides
+   http://rubyonrails.org/download
+
+. Many ISP's offer installation guides, FAQs and customer support
+
+ SSH from command line
+   ssh someuser@someserver.com
+
+WEB SERVERS
+
+full-featured
+   . Apache
+   . Ngnix
+   . Lighttpd
+
+  Light-weight
+   . Passenger / mod-rails
+   . Mongrel
+   . Thin
+   . Unicorn
+
+Easiest for beginners
+   Apache + Passenger
+
+DEPLOYMENT(dirista) TOOLS
+FTP software
+   . Transmit(Macintosh only) -http://panic.com/transmit
+   . Filezilla(Windows only) - http://filezilla-project.org
+   . ExpanDrive(Both) - http://www.expandrive.com
+
+Source Code Manager
+  Git -http://git-scm.com
+  GitHub -http://github.com
+
+Deploy Scripting
+  Capistrano - http://capify.com
+
+
+
+

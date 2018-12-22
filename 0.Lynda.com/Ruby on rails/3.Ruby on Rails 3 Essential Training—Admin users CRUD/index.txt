@@ -1,0 +1,19 @@
+ADMIN USERS CRUD
+
+.Model 
+   Define a method :name which returns :first_name and :last_name with a space between
+   Define a named scope called : sorted that orders by last_name, then first_name
+
+.Control
+    Generate AdminUsersController
+    Use 'admin' layout
+    Restrict access to all actions to logged in users
+    Actions: index, list, new, create, edit, update, delete, destroy (no show action)
+
+.Views
+   Set the HTML page title in each template(@page_title)
+   Utilize view helpers(link_to, mail_to, pluralize, cycle)
+   Utilize form helpers (form_for, label, text_field, password_field, submit_tag)
+   Display form errors
+   Add a link in access/menu.html.erb to the admin users CRUD
+   

@@ -1,0 +1,26 @@
+TABLE MIGRATION METHODS
+
+create_table(table, options) do |t|
+    ...columns...
+
+end
+drop_table(table)
+rename_table(table, new_name)
+
+COLUMN Migration Methods
+add_column(table, column, type, options)
+remove_column(table, column)
+rename_column(table, column, new_name)
+change_column(table, column, type, options)
+
+INDEX MIGRATION METHODS
+
+ad_index(table, column, options)
+remove_index(table, column)
+
+:unique => true/false
+:name => "your_custom_name"
+
+SQL MIGRATION METHOD
+execute ("any SQL string")
+

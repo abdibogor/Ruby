@@ -1,0 +1,4 @@
+In-Browser
+Rails Server Console (WebBrick)
+Application Log Files
+

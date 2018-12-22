@@ -1,0 +1,13 @@
+CRUD 	  Action		 Concept
+Create    new			 display new record form
+	  create		 Process new record form
+
+Read      list			List records
+          show 			Display a single record
+
+Update    edit 			Display edit record form
+	  update                 Process edit record form
+
+Delete    delete		Display delete record form
+	  destroy 		Process delete record form
+

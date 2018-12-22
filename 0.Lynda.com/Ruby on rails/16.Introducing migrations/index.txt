@@ -1,0 +1,17 @@
+WHAT IS A MIGRATION?
+
+. A set of database instructions
+. Written in Ruby
+. Allows you to ingrate your database from one state to another
+. Contains both instructions for:
+   - Moving "up" to a new state
+   - Moving back "down" to the previous state
+
+WHY USE A MIGRATION?
+Keeps database schema with application code
+Is executable and repeatable
+Allows sharing schema changes
+Helps with versionning 
+Allows writing Ruby instead of SQL
+Has access to you Rails application code
+

@@ -1,0 +1,9 @@
+MVC WEB ARCHITECTURE
+
+ Browser => View => Controller => Model => Database
+
+VARIABLES vs. INSTANCE VARIABLES
+
+    variable  
+    @instance_variable
+

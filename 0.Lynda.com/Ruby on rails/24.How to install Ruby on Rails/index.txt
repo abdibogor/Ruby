@@ -1,0 +1,5 @@
+gem list
+gem install rails
+gem install 
+gem list
+rails -v

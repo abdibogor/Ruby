@@ -1,0 +1,35 @@
+  WHY USE RUBY ON RAILS?
+
+  . Ruby
+      Object-oriented, easily readable( la akhrisan karo ), unsurprising( xasilooni la'aan ) syntax and behavior
+
+  . DRY(Sèche) code
+     "Don't Repeat Yourself"
+      Concise( Soo Koob ), consistent( si joogto ah ) code that is easy to mountain( buur )
+      Built DRY( qalalan), encourages DRY
+
+   . Convention Over Configuration
+      Sensible( Macquul ah )  defaults, only specify unconventional( aan caadi ahayn ) aspects
+      Speeds development, less code to maintain
+      Follows best practices(opinionated!)
+
+WHO SHOULD USE RUBY ON RAILS?(  )
+
+. Developers who:
+    .Have previous web experience
+    .Build sites that interact( ) with databases
+    .Are tired of creating and recreating( ) site functionality form scratch
+    .Are concerned about best practices, web standards and security
+    .Are not afraid the command line
+
+
+PREREQUISTES(  )
+
+. Web basics (browsers, servers, pages)
+. HTML
+. SQL
+. CSS and Javascript recommended
+. Learn Ruby!
+
+
+   

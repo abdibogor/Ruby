@@ -1,0 +1,15 @@
+Layouts
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Abdibogoreh</title>
+</head>
+<body>
+
+	<%= yield %>
+
+</body>
+</html> 
+
