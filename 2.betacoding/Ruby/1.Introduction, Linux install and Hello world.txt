@@ -1,0 +1,8 @@
+1. ruby -v
+2. cls
+3. echo > hello.rb
+4. emacs hello.rb
+5. write puts "Hello world! I'm using ruby"
+6. return Start Command Prompt with Ruby clear
+7. ruby hello.rb
+8. 
