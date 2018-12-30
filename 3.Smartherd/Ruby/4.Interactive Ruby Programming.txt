@@ -1,0 +1,22 @@
+execute Interactive Ruby
+print "Shreks from smartherd"
+output = nil
+7. times do print "shreks from smartherd "
+end
+7. times do print "shreks from smartherd "
+end
+puts "Welcome to smartherd"
+nil
+nil
+4 + 9
+32 - 14
+4 * 6
+4/4
+13/4
+13.0/4
+13/4.0
+x = 15
+x + 5
+x = 2
+x + y
+yo man yo "output undefined"

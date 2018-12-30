@@ -1,0 +1,15 @@
+What is Ruby?
+
+it is a server side scripting language like python & perl.
+
+It is interpreted i.e. Executed line by line during execution rather than complied.
+
+It runs on a variety of platforms, such as Windows, Mac Os, and the various versions of Unix.
+
+It is truly object oriented programming like C++.
+
+Very easy syntax so called "A programmer's Best Friend"
+ Ruby can be used for developing Internet and Intranet applications.
+
+Ruby files are having extensions of.rb similar to HTML files with.html extension
+

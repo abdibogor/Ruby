@@ -1,0 +1,12 @@
+Open Interactive Ruby
+require "linguistics"
+Linguistics::use<:en>
+3004.en.numwords
+1.8.en.numwords
+1.83.en.numwords
+"goose".en.plural
+output => "geese"
+"ruby".en.plural
+"runs".en.present_participle
+running
+"sit".en.past_participle

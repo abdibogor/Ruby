@@ -1,0 +1,5 @@
+firstly download aptana as usual 
+when it finish the download 
+copy to paste towards disque local c
+win+r "write cmd"
+c:/aptana-studio_3-6-1_fr_431713.exe /passive /norestart

@@ -1,0 +1,13 @@
+1. Interactive Ruby 
+ .Helps you to execute small programs - Save times
+
+2. Aptana Studio
+  . Free Software
+
+can you visit the website
+ www.rubyinstaller.org
+ Download
+
+ free software
+ Aptana Studio
+ 

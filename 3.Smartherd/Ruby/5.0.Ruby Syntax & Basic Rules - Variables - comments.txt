@@ -1,0 +1,30 @@
+Rules For Variables
+data = 20 ;
+my number = 20;
+_data = 20;
+
+3x = 20;
+ Data$% = 20
+
+Ruby Comments
+
+# I am comment
+
+   Data = 20  #I am comment too
+
+ = begin 
+ This is a comment.
+ This is a comment, too.
+ This is a comment, too.
+ I said that already.  
+ = end
+
+Ruby BEGIN & END statement
+Syntax:
+BEGIN{
+	This block will be executed at the beginning.
+     }
+  Program Body
+ END {
+	This block will be executed at last.
+     }

@@ -1,0 +1,6 @@
+go to the direction the Ruby
+C:\Ruby25-x64\bin
+after then go with property with computer 
+environnement variable
+path 
+paste
